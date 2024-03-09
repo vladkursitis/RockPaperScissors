@@ -1,3 +1,10 @@
+// For future revision
+// function getComputerChoice(){
+//     const choices = ['rock', 'paper', 'scissor'];
+//     const randomIndex = Math.floor(Math.random() * choices.length);
+//     return choices[randomIndex];
+// }
+
 function getComputerSelection() {
     let computerChoice = Math.floor(Math.random() * 3) + 1;
     if (computerChoice === 1) {
