@@ -57,6 +57,7 @@ function playGame() {
     winner(playerScore, computerScore);
 }
 
+// Can be improved by using .include() function by checking if string has Won/Lose words in it.
 function winner(playerScore, computerScore) {
     if (playerScore > computerScore) {
         console.log(`You win, with score ${playerScore}:${computerScore}!`);
